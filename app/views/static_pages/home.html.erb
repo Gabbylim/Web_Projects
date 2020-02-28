@@ -1,6 +1,12 @@
-<% provide(:title, "Home") %>
-<!DOCTYPE html>
+<div class= "centre jumbotron">
+  <h1> welcome to application_project1 </h1>
+  <h2>
+   This is the home page for the <a href="http://rails          tutorial.org/">Ruby on rails Tutorial</a>application project
+  </h2>
 
- 
-<h1>application_project1</h1>
-<p>This is the home page for the <a href="http://rails tutorial.org/">Ruby on rails Tutorial</a>application project</p>
+
+ <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+ </div>
+
+ <%= link_to image_tag("rails.png", alt: "Rails logo"),
+       'http://rubyonrails.org/' %>
